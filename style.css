@@ -1,0 +1,17 @@
+body {
+    background-color: #282828;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+canvas {
+    border: 0.2em solid #fff;
+    aspect-ratio: 3 / 5;
+    /* Drive size by height to keep squares square; cap by viewport width */
+    height: min(90vh, calc(90vw * 5 / 3));
+    width: auto;
+    display: block;
+    margin: 1rem auto;
+}
